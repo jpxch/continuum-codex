@@ -1,0 +1,46 @@
+$schema: 'https://continuum-codex.dev/schema/zanpakuto.v1'
+
+type: object
+required:
+  - id
+  - owner
+  - sealed_name
+  - canon_status
+
+properties:
+  id:
+    type: string
+    pattern: '^[a-z0-9_-]+$'
+
+  owner:
+    type: string
+
+  sealed_name:
+    type: string
+
+  shikai:
+    type: object
+    required:
+      - name
+      - release_command
+    properties:
+      name:
+        type: string
+      release_command:
+        type: string
+
+  bankai:
+    type: object
+    required:
+      - name
+    properties:
+      name:
+        type: string
+
+  canon_status:
+    type: string
+    enum:
+      - manga
+      - anime
+      - novel
+      - filler

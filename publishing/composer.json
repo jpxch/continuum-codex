@@ -1,0 +1,19 @@
+{
+    "name": "jpxch/publishing",
+    "description": "Read-only publishing layer for Continuum Codex (Bleach pilot)",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jpxch\\Publishing\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jpxch",
+            "email": "orlando_alonzo@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
