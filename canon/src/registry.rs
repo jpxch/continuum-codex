@@ -57,7 +57,7 @@ impl ZanpakutoRegistry {
         let mut bankai_by_jp = HashMap::<String, String>::new();
         for z in &self.items {
             let Some(bankai) = &z.bankai else { continue };
-            let name = bankai.name.trim().to_string();
+            let name = bankai.name.jp.trim().to_string();
             if name.is_empty() {
                 return Err(format!("Bankai name empty for id {}", z.id));
             }

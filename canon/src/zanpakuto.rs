@@ -1,7 +1,7 @@
 use crate::types::MultilingualString;
-use serde::Deserialize;
+use serde::{Deserialize, Serialize};
 
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Deserialize, Serialize)]
 pub struct Zanpakuto {
     pub id: String,
     pub owner: MultilingualString,
@@ -11,18 +11,18 @@ pub struct Zanpakuto {
     pub canon_status: CanonStatus,
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Deserialize, Serialize)]
 pub struct Shikai {
     pub name: MultilingualString,
-    pub release_command: String,
+    pub release_command: MultilingualString,
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Deserialize, Serialize)]
 pub struct Bankai {
-    pub name: String,
+    pub name: MultilingualString,
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Deserialize, Serialize)]
 #[serde(rename_all = "lowercase")]
 pub enum CanonStatus {
     Manga,
@@ -58,6 +58,11 @@ impl Zanpakuto {
 
         if let Some(shikai) = &self.shikai {
             shikai.name.validate()?;
+            shikai.release_command.validate()?;
+        }
+
+        if let Some(bankai) = &self.bankai {
+            bankai.name.validate()?;
         }
 
         self.sealed_name.validate()?;

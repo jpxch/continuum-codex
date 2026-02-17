@@ -13,10 +13,10 @@ properties:
     pattern: '^[a-z0-9_-]+$'
 
   owner:
-    type: string
+    $ref: "../../_shared/types.yaml#/MultilingualString"
 
   sealed_name:
-    type: string
+    $ref: "../../_shared/types.yaml#/MultilingualString"
 
   shikai:
     type: object
@@ -25,9 +25,9 @@ properties:
       - release_command
     properties:
       name:
-        type: string
+        $ref: "../../_shared/types.yaml#/MultilingualString"
       release_command:
-        type: string
+        $ref: "../../_shared/types.yaml#/MultilingualString"
 
   bankai:
     type: object
@@ -35,7 +35,7 @@ properties:
       - name
     properties:
       name:
-        type: string
+        $ref: "../../_shared/types.yaml#/MultilingualString"
 
   canon_status:
     type: string
