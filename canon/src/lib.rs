@@ -1,5 +1,6 @@
 pub mod zanpakuto;
 pub use zanpakuto::Zanpakuto;
+pub mod types;
 
 #[cfg(test)]
 mod tests {
