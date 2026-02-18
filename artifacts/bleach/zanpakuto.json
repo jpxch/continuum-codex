@@ -17,10 +17,18 @@
         "romaji": "Ryūjin Jakka",
         "en": "Ryūjin Jakka"
       },
-      "release_command": "Reduce all creation to ash"
+      "release_command": {
+        "jp": "万象一切灰燼と為せ",
+        "romaji": "Banshō issai kaijin to nase",
+        "en": "Reduce all creation to ashes"
+      }
     },
     "bankai": {
-      "name": "Zanka no Tachi"
+      "name": {
+        "jp": "残火の太刀",
+        "romaji": "Zanka no Tachi",
+        "en": "Longsword of the Remnant Flame"
+      }
     },
     "canon_status": "manga"
   }

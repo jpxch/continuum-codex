@@ -19,7 +19,7 @@ type Bankai struct {
 
 type Shikai struct {
 	Name           MultilingualString `json:"name"`
-	ReleaseCommand string             `json:"release_command"`
+	ReleaseCommand MultilingualString `json:"release_command"`
 }
 
 type Zanpakuto struct {
