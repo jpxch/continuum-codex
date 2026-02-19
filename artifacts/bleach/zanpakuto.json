@@ -1,5 +1,92 @@
 [
   {
+    "id": "hyorinmaru",
+    "owner": {
+      "jp": "日番谷冬獅郎",
+      "romaji": "Hitsugaya Tōshirō",
+      "en": "Toshiro Hitsugaya"
+    },
+    "sealed_name": {
+      "jp": "氷輪丸",
+      "romaji": "Hyōrinmaru",
+      "en": "Ice Ring"
+    },
+    "shikai": {
+      "name": {
+        "jp": "氷輪丸",
+        "romaji": "Hyōrinmaru",
+        "en": "Hyōrinmaru"
+      },
+      "release_command": {
+        "jp": "霜天に坐せ",
+        "romaji": "Sōten ni zase",
+        "en": "Sit upon the frost heavens"
+      }
+    },
+    "bankai": {
+      "name": {
+        "jp": "大紅蓮氷輪丸",
+        "romaji": "Daiguren Hyōrinmaru",
+        "en": "Great Crimson Lotus Ice Ring"
+      }
+    },
+    "canon_status": "manga"
+  },
+  {
+    "id": "kazeshini",
+    "owner": {
+      "jp": "檜佐木修兵",
+      "romaji": "Hisagi Shūhei",
+      "en": "Shūhei Hisagi"
+    },
+    "sealed_name": {
+      "jp": "風死",
+      "romaji": "Kazeshini",
+      "en": "Wind Death"
+    },
+    "shikai": {
+      "name": {
+        "jp": "風死",
+        "romaji": "Kazeshini",
+        "en": "Kazeshini"
+      },
+      "release_command": {
+        "jp": "刈れ",
+        "romaji": "Kare",
+        "en": "Reap"
+      }
+    },
+    "bankai": null,
+    "canon_status": "manga"
+  },
+  {
+    "id": "muramasa",
+    "owner": {
+      "jp": "村正",
+      "romaji": "Muramasa",
+      "en": "Muramasa"
+    },
+    "sealed_name": {
+      "jp": "村正",
+      "romaji": "Muramasa",
+      "en": "Muramasa"
+    },
+    "shikai": {
+      "name": {
+        "jp": "村正",
+        "romaji": "Muramasa",
+        "en": "Muramasa"
+      },
+      "release_command": {
+        "jp": "反乱せよ",
+        "romaji": "Hanran seyo",
+        "en": "Revolt"
+      }
+    },
+    "bankai": null,
+    "canon_status": "anime"
+  },
+  {
     "id": "ryujin_jakka",
     "owner": {
       "jp": "山本元柳斎重國",
@@ -28,6 +115,39 @@
         "jp": "残火の太刀",
         "romaji": "Zanka no Tachi",
         "en": "Longsword of the Remnant Flame"
+      }
+    },
+    "canon_status": "manga"
+  },
+  {
+    "id": "senbonzakura",
+    "owner": {
+      "jp": "朽木白哉",
+      "romaji": "Kuchiki Byakuya",
+      "en": "Byakuya Kuchiki"
+    },
+    "sealed_name": {
+      "jp": "千本桜",
+      "romaji": "Senbonzakura",
+      "en": "Thousand Cherry Blossoms"
+    },
+    "shikai": {
+      "name": {
+        "jp": "千本桜",
+        "romaji": "Senbonzakura",
+        "en": "Senbonzakura"
+      },
+      "release_command": {
+        "jp": "ちれ",
+        "romaji": "Chire",
+        "en": "Scatter"
+      }
+    },
+    "bankai": {
+      "name": {
+        "jp": "千本桜景厳",
+        "romaji": "Senbonzakura Kageyoshi",
+        "en": "Senbonzakura Kageyoshi"
       }
     },
     "canon_status": "manga"

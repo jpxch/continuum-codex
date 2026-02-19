@@ -1,0 +1,29 @@
+id: senbonzakura
+
+owner:
+  jp: 朽木白哉
+  romaji: Kuchiki Byakuya
+  en: Byakuya Kuchiki
+
+sealed_name:
+  jp: 千本桜
+  romaji: Senbonzakura
+  en: Thousand Cherry Blossoms
+
+shikai:
+  name:
+    jp: 千本桜
+    romaji: Senbonzakura
+    en: Senbonzakura
+  release_command:
+    jp: ちれ
+    romaji: Chire
+    en: Scatter
+
+bankai:
+  name:
+    jp: 千本桜景厳
+    romaji: Senbonzakura Kageyoshi
+    en: Senbonzakura Kageyoshi
+
+canon_status: manga

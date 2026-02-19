@@ -1,0 +1,29 @@
+id: hyorinmaru
+
+owner:
+  jp: 日番谷冬獅郎
+  romaji: Hitsugaya Tōshirō
+  en: Toshiro Hitsugaya
+
+sealed_name:
+  jp: 氷輪丸
+  romaji: Hyōrinmaru
+  en: Ice Ring
+
+shikai:
+  name:
+    jp: 氷輪丸
+    romaji: Hyōrinmaru
+    en: Hyōrinmaru
+  release_command:
+    jp: 霜天に坐せ
+    romaji: Sōten ni zase
+    en: Sit upon the frost heavens
+
+bankai:
+  name:
+    jp: 大紅蓮氷輪丸
+    romaji: Daiguren Hyōrinmaru
+    en: Great Crimson Lotus Ice Ring
+
+canon_status: manga

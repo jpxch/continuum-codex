@@ -1,0 +1,23 @@
+id: kazeshini
+
+owner:
+  jp: 檜佐木修兵
+  romaji: Hisagi Shūhei
+  en: Shūhei Hisagi
+
+sealed_name:
+  jp: 風死
+  romaji: Kazeshini
+  en: Wind Death
+
+shikai:
+  name:
+    jp: 風死
+    romaji: Kazeshini
+    en: Kazeshini
+  release_command:
+    jp: 刈れ
+    romaji: Kare
+    en: Reap
+
+canon_status: manga

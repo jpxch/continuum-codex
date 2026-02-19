@@ -1,14 +1,16 @@
 ---
 id: ryujin_jakka
+
 owner:
   jp: 山本元柳斎重國
   romaji: Yamamoto Genryūsai Shigekuni
   en: Genryūsai Shigekuni Yamamoto
+
 sealed_name:
   jp: 流刃若火
   romaji: Ryūjin Jakka
   en: Flame Blade of the Dragon King
-canon_status: manga
+
 shikai:
   name:
     jp: 流刃若火
@@ -18,8 +20,11 @@ shikai:
     jp: 万象一切灰燼と為せ
     romaji: Banshō issai kaijin to nase
     en: Reduce all creation to ashes
+
 bankai:
   name:
     jp: 残火の太刀
     romaji: Zanka no Tachi
     en: Longsword of the Remnant Flame
+
+canon_status: manga

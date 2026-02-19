@@ -1,0 +1,23 @@
+id: muramasa
+
+owner:
+  jp:  村正
+  romaji: Muramasa
+  en: Muramasa
+
+sealed_name:
+  jp: 村正
+  romaji: Muramasa
+  en: Muramasa
+
+shikai:
+  name:
+    jp: 村正
+    romaji: Muramasa
+    en: Muramasa
+  release_command:
+    jp: 反乱せよ
+    romaji: Hanran seyo
+    en: Revolt
+
+canon_status: anime
