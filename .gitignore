@@ -32,3 +32,6 @@ bin/
 # Misc
 dist/
 build/
+
+# Local onboarding notes
+docs/AI_ONBOARDING_ROADMAP.md
