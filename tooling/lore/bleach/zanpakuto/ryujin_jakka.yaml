@@ -14,10 +14,7 @@ shikai:
     jp: 流刃若火
     romaji: Ryūjin Jakka
     en: Ryūjin Jakka
-  release_command:
-    jp: 万象一切灰燼と為せ
-    romaji: Banshō issai kaijin to nase
-    en: Reduce all creation to ashes
+  release_command: Reduce all creation to ash
 bankai:
   name:
     jp: 残火の太刀

@@ -1,0 +1,12 @@
+MultilingualString:
+  type: object
+  required:
+    - jp
+    - romaji
+  properties:
+    jp:
+      type: string
+    romaji:
+      type: string
+    en:
+      type: string
