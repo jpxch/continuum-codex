@@ -6,10 +6,8 @@ import java.util.HashSet;
 
 public class Verifier {
 
-    public static void main(String[] args) throws Exception {
+    public static void verify(File file) throws Exception {
         ObjectMapper mapper = new ObjectMapper();
-
-        File file = new File("../artifacts/bleach/zanpakuto.json");
         Zanpakuto[] items = mapper.readValue(file, Zanpakuto[].class);
 
         HashSet<String> ids = new HashSet<>();
@@ -33,7 +31,11 @@ public class Verifier {
                 }
             }
         }
+    }
 
+    public static void main(String[] args) throws Exception {
+        File file = new File("../artifacts/bleach/zanpakuto.json");
+        verify(file);
         System.out.println("Verification passed.");
     }
 }

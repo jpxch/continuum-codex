@@ -1,5 +1,6 @@
 plugins {
-    application
+    id("application")
+    id("java")
 }
 
 repositories {
@@ -13,16 +14,17 @@ java {
 }
 
 dependencies {
-    implementation("com.fasterxml.core:jackson-databind:2.18.2")
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.17.2")
 
     testImplementation(platform("org.junit:junit-bom:5.12.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 
 application {
     mainClass = "codex.Verifier"
 }
 
-task.test {
+tasks.test {
     useJUnitPlatform()
 }
