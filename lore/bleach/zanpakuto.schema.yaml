@@ -18,6 +18,34 @@ properties:
   sealed_name:
     $ref: "../../_shared/types.yaml#/MultilingualString"
 
+  description:
+    $ref: "../../_shared/types.yaml#/MultilingualString"
+
+  abilities:
+    type: array
+    items:
+      $ref: "../../_shared/types.yaml#/MultilingualString"
+
+  first_appearance:
+    type: object
+    properties:
+      source:
+        type: string
+        enum:
+          - manga
+          - anime
+          - novel
+
+      arc:
+        type: string
+      chapter:
+        type: integer
+      episode:
+        type: integer
+
+    image_reference:
+      type: string
+
   shikai:
     type: object
     required:

@@ -4,6 +4,14 @@ use serde::{Deserialize, Serialize};
 #[derive(Debug, Deserialize, Serialize)]
 pub struct Zanpakuto {
     pub id: String,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub image_reference: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub description: Option<MultilingualString>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub abilities: Option<Vec<MultilingualString>>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub first_appearance: Option<Appearance>,
     pub owner: MultilingualString,
     pub sealed_name: MultilingualString,
     pub shikai: Option<Shikai>,
@@ -20,6 +28,14 @@ pub struct Shikai {
 #[derive(Debug, Deserialize, Serialize)]
 pub struct Bankai {
     pub name: MultilingualString,
+}
+
+#[derive(Debug, Deserialize, Serialize)]
+pub struct Appearance {
+    pub source: String,
+    pub arc: Option<String>,
+    pub chapter: Option<u32>,
+    pub episode: Option<u32>,
 }
 
 #[derive(Debug, Deserialize, Serialize)]
